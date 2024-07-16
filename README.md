@@ -25,7 +25,7 @@ To run this program, you'll need Python installed on your system. You can downlo
 
 1. Clone this repository to your local machine using:
     ```bash
-    git clone https://github.com/yourusername/caesar-cipher.git
+    git clone https://github.com/pksooraj/PRODIGY_CS_01-Caesar_Cipher.git
     ```
 
 2. Navigate to the project directory:
