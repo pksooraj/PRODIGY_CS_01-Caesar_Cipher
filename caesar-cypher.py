@@ -8,13 +8,7 @@ art = f"""{BLUE}
   \___\__,_|\___||___/\__,_|_|     \___|_| .__/|_| |_|\___|_|   
                                          |_|                    {RESET}"""
 def caesar_cipher(text, shift, encrypt=True):
-    """
-    Encrypts or decrypts the given text using the Caesar Cipher algorithm.
-    :param text: The string to be encrypted or decrypted.
-    :param shift: The shift value for the Caesar Cipher.
-    :param encrypt: If True, encrypt the text; if False, decrypt the text.
-    :return: The encrypted or decrypted string.
-    """
+  
     shifted_text = ""
     for char in text:
         if char.isalpha():
